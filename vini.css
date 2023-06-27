@@ -1,0 +1,162 @@
+root {
+  ---cor1: #e7edea;
+  ---cor2: #029daf;
+  ---cor3: #fb0c06;
+  ---cor4: #030d4f;
+  ---cor5: #ceecef;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ceecef;
+}
+
+header {
+  font-size: 40px;
+  height: 200px;
+  background-color: #030d4f;
+}
+
+.titulo {
+  position: relative;
+  top: 50px;
+  margin: 0;
+  color: #029daf;
+  text-align: center;
+}
+
+.imgtitulo {
+  position: absolute;
+  height: 150px;
+  top:-39px;
+}
+
+.moto1 {
+  position: relative;
+  animation: andar 3s linear infinite;
+}
+
+@keyframes andar {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: calc(100% + 100px);
+  }
+
+  
+}
+
+
+.moto2{
+  position: relative;
+  animation: andar 4s linear infinite;
+}
+  
+
+  @keyframes andar2 {
+    100% {
+      left: calc(100% + 100px);
+    }
+    }
+    0% {
+      left: -100px;
+    }
+  
+
+}
+  
+
+  
+ 
+  
+
+nav {
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  width: 1920px;
+  height: 96px;
+
+  background: #029daf;
+}
+
+.menu {
+  padding-left: 40px;
+  position: relative;
+  top: 15px;
+  font-size: 35px;
+  color: var(--cor1);
+  text-decoration: 0;
+}
+
+.menu:hover {
+  color: var(--cor3);
+}
+
+.principal {
+  text-align: center;
+  margin: 20px;
+  height: 600px;
+  color: (var(--cor3));
+}
+
+.card {
+  display: inline-block;
+  margin: 40px;
+  background-color: #260101;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.imgcard {
+  margin-top: 20px;
+
+  width: 700px;
+ height: 900px;
+
+}
+
+.cardtitulo {
+  margin: 0;
+}
+
+.cardmenu {
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  position: relative;
+  top: 10px;
+  text-decoration: 0;
+}
+
+.h1 {
+  font-size: 30320px;
+  text-align: c320enter;
+  position: abs320olute;
+  width: 700px;320
+  height: 1000p320x;
+  left: 590px;
+  top: 300px;
+}
+
+footer {
+  position: absolute;
+  width: 1920px;
+  height: 151px;
+  left: 0px;
+  top: 1500px;
+  font-size: 30px;
+  bottom: 0;
+  background-color: #030d4f;
+  color: white;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+
